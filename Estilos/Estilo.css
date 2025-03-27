@@ -1,75 +1,78 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
+.logos{
+    width: 20px;
 }
-
-.container {
-    width: 80%;
-    margin: auto;
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+#Botão{
+    background-color: white;
+    border-color: rgb(255, 51, 0);
+    padding: 10px 20px; 
+    color: rgb(0, 0, 0); 
+    border-radius: 25px;
+    font-size: 16px; 
+    cursor: pointer; 
+    width: 200px; height: 60px;
 }
-
-header {
+.Perfil{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    margin-bottom: 20px;
 }
-
-h1 {
-    color: #007BFF;
-    font-size: 2.5em;
+#titulo{
+    color:rgb(91,192,250);
+    font-size: 80px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-.profile-details {
-    margin-bottom: 20px;
+#leed{
+    font-size: 25px;
+    
 }
-
-h2 {
-    font-size: 1.8em;
-    color: #333;
+.conteudo{
+    display: flex;
+    justify-content: space-around;
 }
-
-p {
-    font-size: 1.1em;
-    color: #555;
+#rodape{
+    background-color:rgb(39, 35, 35);
+    color:white;
+    padding:20px;
+    text-align: center;
+    margin-top: 80px;
+    width: 100%;
 }
-
-.social-icons a {
-    margin: 0 10px;
-    text-decoration: none;
-    font-size: 1.5em; /* Assumindo que os ícones sejam fontes */
-    color: #007BFF;
+.Apresentação{
+    background-color:rgb(255, 51, 0);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    padding: 0.1em;
+    text-align: center;
 }
-
-.contact-btn {
-    background-color: transparent;
-    border: 2px solid #007BFF;
-    color: #007BFF;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+#Bot{
+    display: flex;
+    justify-content: center;
+    padding-top: 0%;
 }
-
-.contact-btn:hover {
-    background-color: #007BFF;
-    color: white;
+#textoApre{
+    margin-top: 0.5em;
 }
-
-.introduction {
-    background-color: #ff6f61;
-    padding: 20px;
-    border-radius: 8px;
-    color: white;
+h1{
+    font-size: 20px;
 }
-
-.introduction h3 {
-    margin: 0 0 10px;
+ul{
+    list-style-type: none;
+    padding-left: 0%;
 }
-
-.introduction p {
-    margin: 0;
+#logosface{
+    width: 13px;
+}
+#apres{
+    font-size: 30px;
+    margin-top: auto;
+}
+#gustavo{
+    width:200px;
+    border-radius: 100%;
+    position: absolute;
+      top: 180px;    
+    padding-left: 3em;
 }
