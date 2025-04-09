@@ -6,7 +6,16 @@
     <link rel="stylesheet" href="Estilos/Estilo.css"> 
     <title>Perfil</title>
 </head>
-<body>
+<body></body>
+      
+    <button id="trocar-tema">Trocar Tema</button>
+    <script>
+        const botao = document.getElementById("trocar-tema");
+      
+        botao.addEventListener("click", () => {
+          document.body.classList.toggle("dark-mode");
+        });
+      </script>
     <header class="Perfil">
         <h1 id="titulo">Perfil</h1>
         <p id="leed">Sou um desenvolvedor web criativo</p>
@@ -20,9 +29,9 @@
                 <li><h3><strong>Local:</strong></h3><p>Bragança Paulista, SP</p></li>
             </ul>
             <div>
-                <img src="Imagens/download.png" class="logos"> 
-                <img src="Imagens/download (1).png" class="logos"> 
-                <img src="Imagens/download (2).png" class="logos"> 
+                <img src="Imagens/facebookbranc.svg" class="logosface"> 
+                <img src="Imagens/twitterbranc.svg" class="logos"> 
+                <img src="Imagens/instagrambranc.svg" class="logos"> 
             </div>
         </div>
 
@@ -38,7 +47,7 @@
                 <h1 id="apres">OLÁ, EU SOU <br>GUSTAVO</h1>
                 <p id="textoApre">Lorem, ipsum dolor sit amet consectetur<br> adipisicing elit. Voluptatibus quidem<br> dolorem consequuntur repellat blanditiis, quis<br> voluptate quod facilis odit eligendi<br> voluptates est voluptatum quisquam<br> fugit perferendis quo, vel aspernatur<br> reprehenderit!officia?Lorem</p>
                 <div>
-                    <img src="Imagens/facebookbranc.svg" id="logosface"> 
+                    <img src="Imagens/facebookbranc.svg" class="logosface"> 
                     <img src="Imagens/twitterbranc.svg" class="logos">
                     <img src="Imagens/instagrambranc.svg" class="logos">
                     <img src="Imagens/linkedinbranc.svg" class="logos">
